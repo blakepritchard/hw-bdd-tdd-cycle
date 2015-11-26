@@ -66,26 +66,10 @@ class MoviesController < ApplicationController
 
   def director
     @movie = Movie.find params[:id]
-    
-    sort = params[:sort] || session[:sort]
-    case sort
-    when 'title'
-      ordering,@title_header = {:title => :asc}, 'hilite'
-    when 'release_date'
-      ordering,@date_header = {:release_date => :asc}, 'hilite'
-    end
-    if params[:sort] != session[:sort] 
-      session[:sort] = sort
-      redirect_to :sort => sort and return
-    end    
-
     @selected_director = @movie.director
     
     if ""== @selected_director then redirect_to movies_path end
     flash[:notice] = "'#{@movie.title}' has no director info."
-
-
-    
     
     @movies = Movie.where(director: @selected_director).order(ordering)
     # @movies.each{|m| puts m.inspect}
