@@ -1,14 +1,14 @@
 {
   "Cucumber Features": {
     "coverage": {
-      "/home/ubuntu/workspace/hw4/hw-bdd-tdd-cycle/rottenpotatoes/app/models/movie.rb": [
+      "/home/ubuntu/workspace/hw4/hw-bdd-tdd-cycle/hw4/app/models/movie.rb": [
         1,
         1,
-        10,
+        1,
         null,
         null
       ],
-      "/home/ubuntu/workspace/hw4/hw-bdd-tdd-cycle/rottenpotatoes/app/controllers/movies_controller.rb": [
+      "/home/ubuntu/workspace/hw4/hw-bdd-tdd-cycle/hw4/app/controllers/movies_controller.rb": [
         1,
         null,
         1,
@@ -22,26 +22,26 @@
         null,
         null,
         1,
-        10,
-        10,
+        1,
+        1,
         null,
-        2,
+        0,
         null,
-        2,
+        0,
         null,
-        10,
-        10,
+        1,
+        1,
         null,
-        10,
-        24,
+        1,
+        6,
         null,
         null,
-        10,
-        3,
-        3,
-        3,
+        1,
+        0,
+        0,
+        0,
         null,
-        7,
+        1,
         null,
         null,
         null,
@@ -80,7 +80,9 @@
         2,
         null,
         2,
-        2,
+        1,
+        1,
+        null,
         null,
         2,
         null,
@@ -89,20 +91,20 @@
         null,
         null
       ],
-      "/home/ubuntu/workspace/hw4/hw-bdd-tdd-cycle/rottenpotatoes/app/controllers/application_controller.rb": [
+      "/home/ubuntu/workspace/hw4/hw-bdd-tdd-cycle/hw4/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/home/ubuntu/workspace/hw4/hw-bdd-tdd-cycle/rottenpotatoes/app/helpers/application_helper.rb": [
+      "/home/ubuntu/workspace/hw4/hw-bdd-tdd-cycle/hw4/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/ubuntu/workspace/hw4/hw-bdd-tdd-cycle/rottenpotatoes/app/helpers/movies_helper.rb": [
+      "/home/ubuntu/workspace/hw4/hw-bdd-tdd-cycle/hw4/app/helpers/movies_helper.rb": [
         1,
         null
       ]
     },
-    "timestamp": 1448568911
+    "timestamp": 1448577019
   }
 }

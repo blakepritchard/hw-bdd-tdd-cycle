@@ -68,10 +68,12 @@ class MoviesController < ApplicationController
     @movie = Movie.find params[:id]
     @selected_director = @movie.director
     
-    if ""== @selected_director then redirect_to movies_path end
-    flash[:notice] = "'#{@movie.title}' has no director info."
+    if ""== @selected_director then 
+      redirect_to movies_path 
+      flash[:notice] = "'#{@movie.title}' has no director info."
+    end
     
-    @movies = Movie.where(director: @selected_director).order(ordering)
+    @movies = Movie.where(director: @selected_director)
     # @movies.each{|m| puts m.inspect}
   end
 
